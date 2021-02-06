@@ -1,7 +1,7 @@
 # Mask_cloud
 
 Download link:
-  https://drive.google.com/file/d/1jZAOTDdMGvHofNse9vX8qmSscEUvCUHM/view?usp=sharing
+  https://drive.google.com/file/d/1pN7eCy6faPpC30QkE3ReT6ICzfNnoFow/view?usp=sharing
   
 <img src="https://github.com/BSFernando/Mask_cloud/blob/main/image_mask.png" alt="alt text" width="400px">
 
