@@ -18,11 +18,11 @@ def criar(caminho, area1, model):
                         cont = cont + 1
                         plt.imshow(fig1)
                         if item == 1:
-                                plt.title('Cloud', size = 8)  
+                                plt.title('HOT', size = 8)  
                         elif item == 2:
                                 plt.title('NDVI', size = 8)
                         else:
-                                plt.title('Cloud&NDVI', size = 8)
+                                plt.title('HOT&NDVI', size = 8)
                         plt.tick_params(labelbottom=False, labelright = False, labelleft=False, labeltop = False)
                         
                         fig.add_subplot(linha,3,cont)
