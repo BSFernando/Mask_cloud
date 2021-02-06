@@ -25,20 +25,20 @@ class Tela():
         style_help = ttk.Style()
         style_help.theme_use('clam')
         style_help.configure('help.TButton', borderwidth=0)
-        help_img = tk.PhotoImage(file=r'help.png')
+        help_img = tk.PhotoImage(file='help.png')
         self.help_button = ttk.Button(self.menu_window, width= 2, style='style_help.help.TButton', image=help_img, command = self.helpfunc)
         self.help_button.grid(row=0,pady=(20,0), padx=(320,20), column=0, sticky="N" )
         self.help_button.bind("<Enter>", self.dark)
         self.help_button.bind("<Leave>", self.light)
 
         self.var1 = tk.IntVar()
-        self.check = ttk.Checkbutton(self.menu_window, text='CLOUD', onvalue = 1,command = self.abrir, variable=self.var1)
+        self.check = ttk.Checkbutton(self.menu_window, text='HOT', onvalue = 1,command = self.abrir, variable=self.var1)
         self.check.grid(row=1,pady=(0,0), padx=(40,200), column=0)
         self.var2 = tk.IntVar()
         self.check1 = ttk.Checkbutton(self.menu_window, text='NDVI', onvalue = 2,command = self.abrir, variable=self.var2)
         self.check1.grid(row=1,pady=(0,0), padx=(80,100), column=0)
         self.var3 = tk.IntVar()
-        self.check2 = ttk.Checkbutton(self.menu_window, text='CLOUD&NDVI', onvalue = 3,command = self.abrir, variable=self.var3)
+        self.check2 = ttk.Checkbutton(self.menu_window, text='HOT&NDVI', onvalue = 3,command = self.abrir, variable=self.var3)
         self.check2.grid(row=1,pady=(0,0), padx=(190,0), column=0)
 
         self.bottun_open = ttk.Button(self.menu_window, state=tk.DISABLED, command = self.open, text="Open")
@@ -132,13 +132,13 @@ class Tela():
     def salvarcsv(self):
         for item in (range(0,len(self.areas))):
             if self.lista_item[item] == 1:
-                save = filedialog.asksaveasfile(title='CLOUD', mode='w', defaultextension=".csv")
+                save = filedialog.asksaveasfile(title='HOT', mode='w', defaultextension=".csv")
                 savetxt(save.name, self.areas[item], delimiter=',')
             elif self.lista_item[item] == 2:
                 save = filedialog.asksaveasfile(title='NDVI', mode='w', defaultextension=".csv")
                 savetxt(save.name, self.areas[item], delimiter=',')
             else:
-                save = filedialog.asksaveasfile(title='CLOUD & NDVI', mode='w', defaultextension=".csv")
+                save = filedialog.asksaveasfile(title='HOT & NDVI', mode='w', defaultextension=".csv")
                 savetxt(save.name, self.areas[item], delimiter=',')
 
     def validar(self,x):
@@ -148,11 +148,11 @@ class Tela():
         sys.exit()
 
     def dark(self, event):
-        self.help = tk.PhotoImage(file=r'helpdark.png')
+        self.help = tk.PhotoImage(file='helpdark.png')
         self.help_button.configure(image=self.help)
 
     def light(self, event):
-        self.help = tk.PhotoImage(file=r'help.png')
+        self.help = tk.PhotoImage(file='help.png')
         self.help_button.configure(image=self.help)
 
 if __name__ == '__main__':
