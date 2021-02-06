@@ -5,7 +5,7 @@ Download link:
   
   after installing: ...path...\mask_cloud\mask_cloud.exe
   
-<img style='border-left:3px' src="https://github.com/BSFernando/Mask_cloud/blob/main/img/image_mask.png" alt="alt text" width="350px">
+<img style='border-left:30px' src="https://github.com/BSFernando/Mask_cloud/blob/main/img/image_mask.png" alt="alt text" width="350px">
 
 <img src="https://github.com/BSFernando/Mask_cloud/blob/main/img/image_mask1.png" alt="alt text" width="400px">
 
