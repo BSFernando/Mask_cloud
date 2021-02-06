@@ -9,10 +9,4 @@ Download link:
 
 <img src="https://github.com/BSFernando/Mask_cloud/blob/main/img/image_mask1.png" alt="alt text" width="400px">
 
-<img src="https://github.com/BSFernando/Mask_cloud/blob/main/img/image_mask2.png" alt="alt text" width="400px">
-
-<img src="https://github.com/BSFernando/Mask_cloud/blob/main/img/image_mask3.png" alt="alt text" width="400px">
-
-<img src="https://github.com/BSFernando/Mask_cloud/blob/main/img/image_mask4.png" alt="alt text" width="400px">
-
-<img src="https://github.com/BSFernando/Mask_cloud/blob/main/img/image_mask5.png" alt="alt text" width="400px">
+<img src="https://github.com/BSFernando/Mask_cloud/blob/main/img/image_mask2.png" alt="alt text" width="600px">
