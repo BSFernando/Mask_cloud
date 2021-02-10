@@ -2,7 +2,7 @@
 
 Download link:
 
-  https://drive.google.com/file/d/1pN7eCy6faPpC30QkE3ReT6ICzfNnoFow/view?usp=sharing
+  https://drive.google.com/file/d/1zHxfEbtC09YREDkNhXoktkDvOdKqSayf/view?usp=sharing
   
   after installing: ...path...\mask_cloud\mask_cloud.exe
   
