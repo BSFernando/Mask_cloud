@@ -38,6 +38,7 @@ def cloud(path, model):
         result1 = model1.predict(rgb_2)
         result2 = model2.predict(rgb_2)
         result3 = result1 + result2
+        result3[result3 == 1] = 0
         result3[result3 == 2] = 1
         final = np.reshape(result3, (rgb_1.shape[0], rgb_1.shape[1]))
     return final
