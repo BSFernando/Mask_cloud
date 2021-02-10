@@ -5,7 +5,7 @@ import os
 
 def escolha_model(model_choise):
     if model_choise == 1:
-        with open(os.getcwd() + r'\model\logit_model_nuvem.pkl', 'rb') as file:
+        with open(os.getcwd() + r'\model\logit_model_hot.pkl', 'rb') as file:
             model1 = pickle.load(file) 
             return model1
     elif model_choise == 2:
@@ -15,7 +15,7 @@ def escolha_model(model_choise):
     else:
         with open(os.getcwd() + r'\model\logit_model_ndvi.pkl', 'rb') as file0:
             model1 = pickle.load(file0)
-        with open(os.getcwd() + r'\model\logit_model_nuvem.pkl', 'rb') as file1:
+        with open(os.getcwd() + r'\model\logit_model_hot.pkl', 'rb') as file1:
             model2 = pickle.load(file1) 
             return model1, model2
 
